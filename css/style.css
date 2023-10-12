@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+/* REGISTER PART */
+
+.registration-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .registration-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .registration-container form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .registration-container form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  /* SELECT ROLE PART */
+/* Style for the select element */
+.registration-container form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the options in the select element */
+.registration-container form select option {
+  padding: 10px;
+  font-size: 16px;
+  color: #000; /* Color of the options */
+}
+
+/* Change the appearance of the dropdown arrow */
+.registration-container form select::-ms-expand {
+  display: none;
+}
+
+.registration-container form select::after {
+  content: '\f107'; /* Unicode for a down arrow (FontAwesome) */
+  font-family: FontAwesome;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  pointer-events: none;
+}
+
+
+
+
+  
+  .registration-container form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn button:hover {
+    background-color: #0056b3;
+  }
+  
+  .registration-container p {
+    margin-top: 20px;
+  }
+  
+  .registration-container p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .registration-container p a:hover {
+    text-decoration: underline;
+  }
+
+     /* CSS for password strength indicator */
+     .password-strength {
+      margin-top: 10px;
+    }
+    .password-strength span {
+      display: inline-block;
+      width: 20px;
+      height: 5px;
+      margin-right: 3px;
+    }
+
+
+/* LOGIN PART */
+
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+
+  .login-container p a:hover {
+    text-decoration: underline;
+  }
+
+  /* Home PAGE */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dashboard-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+/* STUDENTS HOME SCREEN  */
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* FACILITATORS PAGE */
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style for table header */
+th {
+  padding: 12px 15px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+/* Alternate row color */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for table data cells */
+td {
+  padding: 12px 15px;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+
+
+/* ADMIN PAGESSSSSSS */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
